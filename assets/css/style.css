@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1%;
-    background-color: #13293d;
+    background-color: #1d5f69;
     color: #fff;
   }
   
@@ -32,7 +32,7 @@ body {
   /*Selects all <a> elements inside <nav> elements*/
   /*https://www.w3schools.com/cssref/sel_element_element.asp*/
   nav a {
-    color: #b9c6ae;
+    color: #ffffff;
     font-weight: bold;
     text-decoration: none;
   }
@@ -49,7 +49,7 @@ body {
   }
   
   article {
-    border-bottom: 1px solid #13293d;
+    border-bottom: 1px solid #000000;
   }
   
   /*Selects all <p> elements inside <article> elements*/
@@ -73,17 +73,12 @@ body {
     margin: 5px 0;
   }
   
-  /* Use :nth-child() to select every even list item */
-  /*🔑 We can use the :nth-child() selector to apply styles to elements based on their order.*/
-  article ul li:nth-child(even) {
-    background-color: #b9c6ae;
-    color: #13293d;
-  }
+ 
   
   /* Use adjacent sibling combinator (+) to select all <p> elements that come immediately after a <ul> element inside of an <article> element */
   /*🔑 We can use the adjacent sibling + selector to apply styles to elements that come after another specific element.*/
   article ul + p {
-    background-color: #13293d;
+    background-color: #000000;
     color: #fff;
   }
   
@@ -91,14 +86,14 @@ body {
   /*🔑 We can use the direct child > selector to apply styles to elements that are direct children of an HTML element.*/
   article div > * {
     padding: 20px;
-    border: 4px solid #b9c6ae;
+    border: 4px solid #1d5f69;
   }
   
   footer {
     display: flex;
     justify-content: center;
     padding: 2%;
-    background-color: #13293d;
+    background-color: #1d5f69;
     color: #fff;
   }
   
