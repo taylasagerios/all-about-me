@@ -47,6 +47,8 @@ body {
   }
   
   img {
+    border-color: #000000;
+    border-width: 3px;
 
 }
   
